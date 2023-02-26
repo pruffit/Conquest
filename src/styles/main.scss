@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import 'node_modules/scss-reset/src/scss/_reset.scss';
+@import 'vars';
+@import 'mixins';
+
+html {
+	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Playfair Display', serif;
+	font-family: 'Prata', serif; */
+}
+.container {
+	max-width: 1166px;
+	width: 100%;
+	margin: 0 auto;
+	height: inherit;
+}
+.screen{
+	height: 855px;
+	overflow: hidden;
+}
+.button{
+	width: 205px;
+	height: 64px;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 14px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	&--dark{
+		background-color: #444240;
+	}
+}
+@import './blocks/**/*.scss';
