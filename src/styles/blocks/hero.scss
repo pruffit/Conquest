@@ -20,6 +20,7 @@
 		line-height: 60px;
 		color: #1B1A17;
 		margin-bottom: 16px;
+		z-index: 1;
 		&:before{
 			content: '';
 			width: 50px;
@@ -79,6 +80,26 @@
 			background-color: #8B8371;
 			position: absolute;
 			left: -65px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+	.description{
+		position: absolute;
+		top: 200px;
+		left: 40%;
+		font-family: 'Prata', serif;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 21.68px;
+		color: #1B1A17;
+		&:before{
+			content: '';
+			width: 50px;
+			height: 1px;
+			background-color: #8B8371;
+			position: absolute;
+			right: -65px;
 			top: 50%;
 			transform: translateY(-50%);
 		}
