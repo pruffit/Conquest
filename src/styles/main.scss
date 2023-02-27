@@ -36,5 +36,8 @@ html {
 	&--dark{
 		background-color: #444240;
 	}
+	&--light{
+		background-color: #D4B098;
+	}
 }
 @import './blocks/**/*.scss';
