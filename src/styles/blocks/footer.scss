@@ -1,0 +1,62 @@
+.footer{
+	background-color: #444240;
+	padding: 67px 0;
+	&__inner{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 118px;
+	}
+	.logo{
+		display: flex;
+		align-items: center;
+		margin-bottom: 32px;
+		&__image{
+			margin-right: 9px;
+		}
+		&__name{
+			font-family: 'Playfair Display', serif;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 18.66px;
+			letter-spacing: 0.14em;
+			color: #ffffff;
+		}
+	}
+	.phone{
+		margin-bottom: 15px;
+	}
+	.phone,
+	.mail{
+		text-decoration: none;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 14.06px;
+		color: rgba(#ffffff, .75);
+	}
+	.nav{
+		&__link{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 16.41px;
+			letter-spacing: 0.07em;
+			color: #ffffff;
+		}
+	}
+	.subnav{
+		padding-top: 33px;
+		&__item{
+			&:not(:last-child){
+				margin-bottom: 15px;
+			}
+		}
+		&__link{
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 14.06px;
+			color: rgba(#ffffff, .75);
+		}
+	}
+}
